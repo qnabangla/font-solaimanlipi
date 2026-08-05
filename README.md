@@ -1,83 +1,235 @@
 # SolaimanLipi Font CDN
 
 [![License: OFL 1.1](https://img.shields.io/badge/License-OFL%201.1-blue.svg)](https://scripts.sil.org/OFL)
+[![jsDelivr](https://data.jsdelivr.com/v1/package/gh/qnabangla/font-solaimanlipi/badge)](https://www.jsdelivr.com/package/gh/qnabangla/font-solaimanlipi)
 
-This repository provides a fast, reliable [jsDelivr](https://www.jsdelivr.com/) CDN link for the **SolaimanLipi** web font. 
+This repository provides a fast and reliable **jsDelivr CDN** for the **SolaimanLipi** web font.
 
-> **Disclaimer:** I do not own this font. SolaimanLipi is a free, open-source font. This repository was created simply to host the web font files (WOFF2, WOFF, TTF, EOT, SVG) and provide a direct CDN link for developers to easily embed it into their web projects.
+> **Disclaimer**
+>
+> I do **not** own this font. **SolaimanLipi** is a free and open-source Bangla font. This repository simply hosts the web font files (WOFF2, WOFF, TTF, EOT, and SVG) and provides an easy-to-use CDN for developers to embed the font into websites and web applications.
 
 ---
 
-## 📖 About the Font
+# 📖 About the Font
 
-**SolaimanLipi** is a widely used, Unicode-compliant Bangla font designed by **Solaiman Karim** in 2003. It was developed as part of the [Ekushey project](https://ekushey.org/) and is redistributed by Altruists International. The font supports the complete Bengali Unicode range (U+0980-U+09FF).
+**SolaimanLipi** is one of the most popular Unicode Bangla fonts designed by **Solaiman Karim** in **2003**. It was originally developed as part of the **Ekushey Project** and later maintained by **Altruists International**.
 
-### Preview
+The font fully supports the Bengali Unicode block (**U+0980–U+09FF**) and is widely used in websites, blogs, digital publishing, government documents, and educational platforms.
+
+## Preview
+
 > আমি বাংলায় মাতি উল্লাসে,  
-> করি বাংলায় হাহাকার  
-> আমি সব দেখে শুনে ক্ষেপে গিয়ে-  
+> করি বাংলায় হাহাকার।  
+> আমি সব দেখে শুনে ক্ষেপে গিয়ে—  
 > করি বাংলায় চিৎকার।
 
 ---
 
-## 🚀 How to Use (CDN)
+# 🚀 How to Use
 
-You can easily embed this font into your website using the direct GitHub CDN raw link provided by jsDelivr. 
+## Option 1 — CSS `@import`
 
-### 1. Embed via HTML `<link>` (Recommended for Preloading)
-Add the following code inside the `<head>` tag of your HTML document to preload and load the font efficiently:
-
-```html
-<!--[ Solaimanlipi fonts ]-->
-<link as='font' crossorigin='anonymous' href='[https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2](https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2)' rel='preload' type='font/woff2'/>
-
-<link as='style' href='[https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2]
-```
-
-### 2. Import via CSS `@font-face`
-Alternatively, you can load the font directly inside your CSS file:
+Add the following line to your CSS file.
 
 ```css
-/* SolaimanLipi Font */ 
-@font-face {
-    font-family: 'SolaimanLipi';
-    src: url('[https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2](https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2)') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}(https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2)' onload='this.onload=null; this.rel="stylesheet"; document.body.classList.add("fontLoaded")' rel='preload'/>
+@import url("https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/font.css");
 ```
-
-
-### 3. Specify in CSS
-Once loaded, use the following CSS rule to apply the font to your elements:
-
-```css
-body {
-    font-family: 'SolaimanLipi', sans-serif;
-    font-size: 20px; /* Adjust as needed */
-}
-
-```
-
-
-## ℹ️ Font Information
-
-* **Font Name:** SolaimanLipi
-* **Subfamily:** Regular
-* **Version:** 2.002
-* **Release Date:** February 19, 2021
-* **Designer:** Solaiman Karim
-* **Developer:** Al Mamun Hossen
-
-## ✨ Features
-
-* **Multiple web font formats provided:** WOFF2, WOFF, TTF, SVG, and EOT.
-* **Highly Optimized:** Ready for fast web rendering using modern `font-display: swap` CSS rules.
-* **Fully Unicode-compliant:** Ensures proper Bengali text rendering across all modern web browsers.
 
 ---
 
-## 📄 License
+## Option 2 — HTML `<link>` (Recommended)
 
-This Font Software is licensed under the **[SIL Open Font License, Version 1.1](https://openfontlicense.org/)**. It is free for both personal and commercial use.
+Include the following inside the `<head>` section.
+
+```html
+<!-- Preload Font -->
+<link
+    rel="preload"
+    href="https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+>
+
+<!-- Load CSS -->
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/font.css"
+>
+```
+
+---
+
+## Option 3 — CSS `@font-face`
+
+```css
+@font-face {
+    font-family: "SolaimanLipi";
+    src:
+        url("https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2") format("woff2"),
+        url("https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff") format("woff"),
+        url("https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+```
+
+---
+
+## Apply the Font
+
+```css
+body {
+    font-family: "SolaimanLipi", sans-serif;
+}
+```
+
+Example:
+
+```html
+<h1>বাংলা শিরোনাম</h1>
+
+<p>
+বাংলা ভাষা পৃথিবীর অন্যতম সমৃদ্ধ ভাষা।
+</p>
+```
+
+---
+
+# 📁 Repository Structure
+
+```
+.
+├── SolaimanLipi.woff2
+├── SolaimanLipi.woff
+├── SolaimanLipi.ttf
+├── SolaimanLipi.eot
+├── SolaimanLipi.svg
+├── font.css
+├── LICENSE
+└── README.md
+```
+
+---
+
+# ℹ️ Font Information
+
+| Property | Value |
+|----------|-------|
+| Font Name | SolaimanLipi |
+| Style | Regular |
+| Version | 2.002 |
+| Release Date | February 19, 2021 |
+| Designer | Solaiman Karim |
+| Developer | Al Mamun Hossen |
+| Unicode Support | Bengali (U+0980–U+09FF) |
+| License | SIL Open Font License 1.1 |
+
+---
+
+# ✨ Features
+
+- ✅ WOFF2
+- ✅ WOFF
+- ✅ TrueType (TTF)
+- ✅ Embedded OpenType (EOT)
+- ✅ SVG Font
+- ✅ Unicode compliant
+- ✅ Lightweight CDN delivery
+- ✅ Fast loading via jsDelivr
+- ✅ `font-display: swap`
+- ✅ Works in all modern browsers
+
+---
+
+# 🌐 CDN URL
+
+WOFF2
+
+```
+https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2
+```
+
+WOFF
+
+```
+https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff
+```
+
+TTF
+
+```
+https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.ttf
+```
+
+EOT
+
+```
+https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.eot
+```
+
+SVG
+
+```
+https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.svg
+```
+
+CSS
+
+```
+https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/font.css
+```
+
+---
+
+# 💡 Browser Support
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+- Safari
+- Opera
+- Brave
+- Vivaldi
+- Android Browser
+- iOS Safari
+
+---
+
+# ❤️ Acknowledgements
+
+Special thanks to:
+
+- **Solaiman Karim** for designing the original SolaimanLipi font.
+- **Altruists International** for maintaining and distributing the font.
+- **jsDelivr** for providing the free global CDN.
+
+---
+
+# 📄 License
+
+This Font Software is licensed under the **SIL Open Font License, Version 1.1 (OFL-1.1)**.
+
+You are free to use, modify, and redistribute the font under the terms of the license.
+
+https://openfontlicense.org/
+
+---
+
+# ⚠️ Disclaimer
+
+This repository is **not affiliated with** or officially maintained by the original font author.
+
+It only provides CDN-hosted web font files to simplify integration into websites and web applications.
+
+All rights belong to their respective owners.
+
+---
+
+# ⭐ Support
+
+If you find this repository useful, consider giving it a **⭐ Star** on GitHub.
+
+It helps other developers discover the project.
