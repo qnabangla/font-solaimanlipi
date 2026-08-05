@@ -47,3 +47,17 @@ Alternatively, you can load the font directly inside your CSS file:
     font-display: swap;
 }(https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2)' onload='this.onload=null; this.rel="stylesheet"; document.body.classList.add("fontLoaded")' rel='preload'/>
 ```
+
+
+### 3. Specify in CSS
+Once loaded, use the following CSS rule to apply the font to your elements:
+
+```css
+body {
+    font-family: 'SolaimanLipi', sans-serif;
+    font-size: 20px; /* Adjust as needed */
+}
+
+```
+
+
