@@ -1,7 +1,3 @@
-Okay now write it:
-
-
-
 # SolaimanLipi Font CDN
 
 
