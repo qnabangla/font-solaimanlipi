@@ -31,4 +31,19 @@ Add the following code inside the `<head>` tag of your HTML document to preload 
 <!--[ Solaimanlipi fonts ]-->
 <link as='font' crossorigin='anonymous' href='[https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2](https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2)' rel='preload' type='font/woff2'/>
 
-<link as='style' href='[https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2](https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2)' onload='this.onload=null; this.rel="stylesheet"; document.body.classList.add("fontLoaded")' rel='preload'/>
+<link as='style' href='[https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2]
+```
+
+### 2. Import via CSS `@font-face`
+Alternatively, you can load the font directly inside your CSS file:
+
+```css
+/* SolaimanLipi Font */ 
+@font-face {
+    font-family: 'SolaimanLipi';
+    src: url('[https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2](https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2)') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}(https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.woff2)' onload='this.onload=null; this.rel="stylesheet"; document.body.classList.add("fontLoaded")' rel='preload'/>
+```
