@@ -1,0 +1,23 @@
+/*!
+ * SolaimanLipi Web Font
+ * Repository: https://github.com/qnabangla/font-solaimanlipi
+ * CDN: https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/
+ * License: SIL Open Font License 1.1
+ */
+
+@font-face {
+    font-family: "SolaimanLipi";
+    src:
+        url("./SolaimanLipi.woff2") format("woff2"),
+        url("./SolaimanLipi.woff") format("woff"),
+        url("./SolaimanLipi.ttf") format("truetype"),
+        url("./SolaimanLipi.eot") format("embedded-opentype"),
+        url("./SolaimanLipi.svg#SolaimanLipi") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.solaimanlipi {
+    font-family: "SolaimanLipi", sans-serif;
+}
