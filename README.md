@@ -51,12 +51,6 @@ Include the following inside the `<head>` section.
     type="font/woff2"
     crossorigin
 >
-
-<!-- Load CSS -->
-<link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/font.css"
->
 ```
 
 ---
@@ -107,8 +101,6 @@ Example:
 ├── SolaimanLipi.ttf
 ├── SolaimanLipi.eot
 ├── SolaimanLipi.svg
-├── font.css
-├── LICENSE
 └── README.md
 ```
 
@@ -174,12 +166,6 @@ SVG
 
 ```
 https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/SolaimanLipi.svg
-```
-
-CSS
-
-```
-https://cdn.jsdelivr.net/gh/qnabangla/font-solaimanlipi@main/font.css
 ```
 
 ---
