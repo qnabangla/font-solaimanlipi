@@ -235,57 +235,29 @@ Example:
 
 
 | Property | Value |
-
 |----------|-------|
-
 | Font Name | SolaimanLipi |
-
 | Style | Regular |
-
 | Version | 2.002 |
-
 | Release Date | February 19, 2021 |
-
 | Designer | Solaiman Karim |
-
 | Developer | Al Mamun Hossen |
-
 | Unicode Support | Bengali (U+0980–U+09FF) |
-
 | License | SIL Open Font License 1.1 |
-
-
 
 ---
 
-
-
 # ✨ Features
-
-
-
 - ✅ WOFF2
-
 - ✅ WOFF
-
 - ✅ TrueType (TTF)
-
 - ✅ Embedded OpenType (EOT)
-
 - ✅ SVG Font
-
 - ✅ Unicode compliant
-
 - ✅ Lightweight CDN delivery
-
 - ✅ Fast loading via jsDelivr
-
 - ✅ `font-display: swap`
-
 - ✅ Works in all modern browsers
-
-
-
 ---
 
 
@@ -444,11 +416,7 @@ https://openfontlicense.org/
 
 This repository is **not affiliated with** or officially maintained by the original font author.
 
-
-
 It only provides CDN-hosted web font files to simplify integration into websites and web applications.
-
-
 
 All rights belong to their respective owners.
 
@@ -456,11 +424,7 @@ All rights belong to their respective owners.
 
 ---
 
-
-
 # ⭐ Support
-
-
 
 If you find this repository useful, consider giving it a **⭐ Star** on GitHub.
 
