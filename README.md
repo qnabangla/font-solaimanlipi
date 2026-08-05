@@ -61,3 +61,23 @@ body {
 ```
 
 
+## ℹ️ Font Information
+
+* **Font Name:** SolaimanLipi
+* **Subfamily:** Regular
+* **Version:** 2.002
+* **Release Date:** February 19, 2021
+* **Designer:** Solaiman Karim
+* **Developer:** Al Mamun Hossen
+
+## ✨ Features
+
+* **Multiple web font formats provided:** WOFF2, WOFF, TTF, SVG, and EOT.
+* **Highly Optimized:** Ready for fast web rendering using modern `font-display: swap` CSS rules.
+* **Fully Unicode-compliant:** Ensures proper Bengali text rendering across all modern web browsers.
+
+---
+
+## 📄 License
+
+This Font Software is licensed under the **[SIL Open Font License, Version 1.1](https://openfontlicense.org/)**. It is free for both personal and commercial use.
